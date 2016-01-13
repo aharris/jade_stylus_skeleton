@@ -83,15 +83,6 @@ App = {
   },
 
   fireCustomJS: function () {
-    this.counter();
-  },
-
-  counter: function () {
-   $('.countdown').countdown("2016/10/07", function(event) {
-     $(this).text(
-       event.strftime('%D days to go')
-     );
-   });
   }
 
 };
